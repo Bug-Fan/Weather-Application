@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Help</title>
+    <link rel="icon" href="/images/weather.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="main-content" style="text-align: left;">
+        {{>header}}
+        <p>This site uses <a href="https://www.openweathermap.org" target="_blank">Openweather</a> API to fetch weather of the entered location.</p><br>
+        <ul>
+        <li>Enter a place name, press Enter key or click the Submit button to get the weather forecast of the place.</li>
+        <li>The Weather application returns the Temperature and Humidity levels of the place.</li>
+        <li>If the place is not found by the API, you will get an error message.</li>
+        </ul>
+    </div>
+    {{>footer}}
+</body>
+</html>
